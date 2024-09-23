@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- Font Awsome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&family=New+Amsterdam&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Reddit+Sans+Condensed:wght@200..900&display=swap" rel="stylesheet">
+<!-- animate style -->
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+<!-- aos animation -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+</head>
+<body>
+   <div id="container">
+    <!-- navbar -->
+     <nav>
+        <!-- logo -->
+         <img class="logo" src="data:image/jpeg;base64,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" alt="No Image">
+      <!-- links -->
+       <ul>
+        <li class="list-item"><a class="list" href="#home">Home</a></li>
+        <li class="list-item"><a class="list" href="#about">About</a></li>
+        <li class="list-item"><a class="list" href="#skill">Skills</a></li>
+        <li class="list-item"><a class="list" href="#contact">Contact</a></li>
+       </ul>
+        </nav>
+    <!-- home -->
+       <section id="home">
+         <!-- home content -->
+          <div class="home-content">
+            <h1 class="animate__animated animate__bounce" id="username">I'm maria <span id="lname">Joe</span></h1>
+            <p id="user-details">This is my official portfolio website to describe all
+               <br>
+               Details and wor experience in Web Development
+            </p>
+            <a id="download" href="./pdf/warr.pdf" download>Download CV</a>
+          </div>
+          <!-- home image -->
+           <div class="home-img">
+            <!-- shape -->
+             <img id="shape" class="group1" src="./Images/122faa19-24e1-4940-8d52-075bcb0e5f1e-removebg-preview.png" alt="">
+             <!-- girl -->
+              <img id="girl" class="group1" src="./Images/bd191a8c-84ea-48e1-89aa-a3a3aafa63e1-removebg-preview.png" alt="">
+           </div>
+       </section>
+    <!-- about -->
+     <section id="about">
+      <div class="sectionHead">
+         <h2 id="mainHead">About Me</h2>
+         <span id="subHead">Introduction</span>
+      </div>
+     <div class="aboutBody">
+        <div data-aos="fade-right" class="aboutimage">
+         <img class="img1" src="./Images/OIP.jpg" alt="no image">
+        </div>
+        <div class="aboutcontent">
+         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A aperiam ex, perspiciatis dolore reprehenderit, ad praesentium rem atque eveniet blanditiis, totam quas! Ratione quasi minima possimus illum, aperiam provident quod!
+         Ea harum alias ipsum iste doloribus veritatis recusandae magnam?</p>
+         <div class="information">
+            <div class="infobox">
+               <i class="fa-solid fa-user"></i>
+               <span>Maria Joe</span>
+            </div>
+            <div class="infobox">
+            <i class="fa-solid fa-phone"></i>
+            <span>9946503755</span>
+         </div>
+            <div class="infobox">
+            <i class="fa-regular fa-envelope"></i>
+            <span>dhbiw@gmail.com</span>
+         </div>
+         </div>
+         </div>
+        </div>
+     <!-- </div> -->
+     </section>
+    <!-- skill -->
+     <section id="skill">
+      <div class="sectionHead">
+         <h2 id="mainHead">Skills</h2>
+         <span id="subHead">My Skills</span>
+      </div>
+      <div class="skillContent">
+         <div class="progressbars">
+            <!-- progress bars -->
+             <div class="bars">
+                  <h3 class="mainHead">HTML</h3>
+                  <span class="barPercentage">89%</span>
+                  <div class="baseBar"></div>
+                  <div data-aos="fade-right"
+                  data-aos-offset="300"
+                  data-aos-easing="ease-in-sine" class="baseBar htmlBar"></div>
+             </div>
+
+             <div class="bars">
+                  <h3 class="mainHead">CSS</h3>
+                  <span class="barPercentage">82%</span>
+                  <div class="baseBar"></div>
+                  <div data-aos="fade-right"
+                  data-aos-offset="300"
+                  data-aos-easing="ease-in-sine" class="baseBar cssBar"></div>
+             </div>
+
+             <div class="bars">
+                  <h3 class="mainHead">JS</h3>
+                  <span class="barPercentage">71%</span>
+                  <div class="baseBar"></div>
+                  <div data-aos="fade-right"
+                  data-aos-offset="300"
+                  data-aos-easing="ease-in-sine" class="baseBar jsBar"></div>
+             </div>
+
+             <div class="bars">
+                  <h3 class="mainHead">React</h3>
+                  <span class="barPercentage">82%</span>
+                  <div class="baseBar"></div>
+                  <div data-aos="fade-right"
+                  data-aos-offset="300"
+                  data-aos-easing="ease-in-sine" class="baseBar reactBar"></div>
+             </div>
+         </div>
+         <div data-aos="fade-left" class="skillimage">
+            <img width="100%" class="myskill" src="./Images/OIP (1).jpg" alt="No img">
+         </div>
+      </div>
+     </section>
+    <!-- contact -->
+     <section id="contact">
+      <div class="sectionHead">
+         <h2 id="mainHead">Contacts</h2>
+         <span id="subHead">My Contacts</span>
+      </div>
+      <div class="iconcollection">
+      <!-- Linked in -->
+       <div class="icon">
+         <a href="https://in.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin-in brands"></i></a>
+       </div>
+       <!-- github -->
+       <div class="icon">
+         <a href="https://in.linkedin.com/" target="_blank"><i class="fa-brands fa-github brands"></i></a>
+       </div>
+        <!-- twitter -->
+        <div class="icon">
+         <a href="https://in.linkedin.com/" target="_blank"><i class="fa-brands fa-twitter brands"></i></a>
+       </div>
+         <!-- facebook -->
+         <div class="icon">
+            <a href="https://in.linkedin.com/" target="_blank"><i class="fa-brands fa-facebook brands"></i></a>
+          </div>
+          <!-- mail -->
+          <div class="icon">
+            <a href="https://in.linkedin.com/" target="_blank"><i class="fa-solid fa-envelope brands"></i></a>
+          </div>
+          <!-- instagram -->
+          <div class="icon">
+            <a href="https://in.linkedin.com/" target="_blank"><i class="fa-brands fa-instagram brands"></i></a>
+          </div>
+
+      </div>
+
+
+     </section>
+     <!-- footer -->
+      <footer>
+         <p id="copywrite"> &copy; My portfolio website -June 2024, All RightsReserved to &reg; Maria Joe</p>
+         <div class="icon upArrow">
+            <a href="#container"><i class="fa-solid fa-angle-up brands"></i></a>
+          </div>
+      </footer>
+           
+
+   </div>
+</body>
+<!-- aos animate -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+   AOS.init();
+ </script>
+</html>
